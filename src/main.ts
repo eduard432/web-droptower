@@ -99,7 +99,7 @@ function animar(timestamp: number) {
   // Dibujo
   const y_px = y_metros * pxPorMetro;
   ctx.fillStyle = t < t_caida_libre ? "blue" : "red";
-  drawRoundedRect(ctx, 150, y_px, 100, 40, 20)
+  drawRoundedRect(ctx, 100, y_px, 200, 40, 20)
   ctx.fill();
 
   const m_display = y0-y_metros > 0 ? y0-y_metros : 0
