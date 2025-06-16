@@ -119,6 +119,7 @@ function animar(timestamp: number) {
 
 resBtn.onclick = () => {
   tiempoInicio = 0
+  elFren.textContent = ""
   requestAnimationFrame(animar)
 }
 
