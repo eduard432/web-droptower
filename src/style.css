@@ -1,6 +1,22 @@
-#miCanvas  {
-  width: 100vw;
-  height: 100vh;
+.canvas  {
   display: block;
   background-color: #aaaaaa;
+}
+
+.contenedor {
+  gap: 2rem;
+  display: flex;
+  font-size: 1rem;
+}
+
+.btn {
+  display: inline;
+}
+
+.datos {
+  width: 200px;
+}
+
+.freno {
+  color: red;
 }

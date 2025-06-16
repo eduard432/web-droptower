@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,7 +7,19 @@
     <title>Vite + TS</title>
   </head>
   <body>
-    <canvas id="miCanvas" ></canvas>
+    <h1>Simulación drop tower:</h1>
+    <section class="contenedor">
+      <div class="datos">
+        <p id="pos">Posición:</p>
+        <p id="vel">Velocidad:</p>
+        <p id="intro"></p>
+        <button id="btn" class="btn">Restart</button>
+        <p id="freno" class="freno" ></p>
+      </div>
+      <div>
+        <canvas id="miCanvas" class="canvas"></canvas>
+      </div>
+    </section>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
